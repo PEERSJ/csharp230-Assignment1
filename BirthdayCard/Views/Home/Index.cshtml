@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<style>
+    .btn a {
+        color: white;
+        text-decoration: none;
+    }
+
+    body {
+        background-color: #f1f1f1;
+    }
+</style>
+
+
+
+<div class="text-center">
+
+    <h2>Send A Birthday Card</h2>
+
+
+    <div class="btn btn-success">
+        @Html.ActionLink("Send Card", "BirthdayMessage")
+    </div>
+</div>
+
+<!DOCTYPE html>
